@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5D23FADF1D05BDE300B0DB25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D23FADE1D05BDE300B0DB25 /* main.m */; };
+		5D23FAE71D05BECB00B0DB25 /* Professor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D23FAE61D05BECB00B0DB25 /* Professor.m */; };
+		5D23FAEA1D05BF8800B0DB25 /* MathProfessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D23FAE91D05BF8800B0DB25 /* MathProfessor.m */; };
+		5D23FAED1D05C1A600B0DB25 /* EnglishProfessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D23FAEC1D05C1A600B0DB25 /* EnglishProfessor.m */; };
+		5D23FAF01D05C1F100B0DB25 /* PhysicsProfessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D23FAEF1D05C1F100B0DB25 /* PhysicsProfessor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		5D23FADB1D05BDE300B0DB25 /* ObjectOrientedP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectOrientedP; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D23FADE1D05BDE300B0DB25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D23FAE51D05BECB00B0DB25 /* Professor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Professor.h; sourceTree = "<group>"; };
+		5D23FAE61D05BECB00B0DB25 /* Professor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Professor.m; sourceTree = "<group>"; };
+		5D23FAE81D05BF8800B0DB25 /* MathProfessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathProfessor.h; sourceTree = "<group>"; };
+		5D23FAE91D05BF8800B0DB25 /* MathProfessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathProfessor.m; sourceTree = "<group>"; };
+		5D23FAEB1D05C1A600B0DB25 /* EnglishProfessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnglishProfessor.h; sourceTree = "<group>"; };
+		5D23FAEC1D05C1A600B0DB25 /* EnglishProfessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnglishProfessor.m; sourceTree = "<group>"; };
+		5D23FAEE1D05C1F100B0DB25 /* PhysicsProfessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsProfessor.h; sourceTree = "<group>"; };
+		5D23FAEF1D05C1F100B0DB25 /* PhysicsProfessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsProfessor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				5D23FADE1D05BDE300B0DB25 /* main.m */,
+				5D23FAE51D05BECB00B0DB25 /* Professor.h */,
+				5D23FAE61D05BECB00B0DB25 /* Professor.m */,
+				5D23FAE81D05BF8800B0DB25 /* MathProfessor.h */,
+				5D23FAE91D05BF8800B0DB25 /* MathProfessor.m */,
+				5D23FAEB1D05C1A600B0DB25 /* EnglishProfessor.h */,
+				5D23FAEC1D05C1A600B0DB25 /* EnglishProfessor.m */,
+				5D23FAEE1D05C1F100B0DB25 /* PhysicsProfessor.h */,
+				5D23FAEF1D05C1F100B0DB25 /* PhysicsProfessor.m */,
 			);
 			path = ObjectOrientedP;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D23FAF01D05C1F100B0DB25 /* PhysicsProfessor.m in Sources */,
+				5D23FAEA1D05BF8800B0DB25 /* MathProfessor.m in Sources */,
 				5D23FADF1D05BDE300B0DB25 /* main.m in Sources */,
+				5D23FAED1D05C1A600B0DB25 /* EnglishProfessor.m in Sources */,
+				5D23FAE71D05BECB00B0DB25 /* Professor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
